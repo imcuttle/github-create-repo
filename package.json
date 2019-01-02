@@ -2,10 +2,7 @@
   "name": "@moyuyc/github-create-repo",
   "version": "1.0.2",
   "description": "Create a Github repository.",
-  "author": "Athan Reines <kgryte@gmail.com>",
-  "contributors": [
-    "Athan Reines <kgryte@gmail.com>"
-  ],
+  "author": "imcuttle <moyuyc95@gmail.com>",
   "bin": {
     "ghcreaterepo": "./bin/cli",
     "github-create-repo": "./bin/cli"
