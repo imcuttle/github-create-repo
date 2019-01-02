@@ -4,18 +4,20 @@ Create Repository
 
 > [Create][github-create-repo] a Github repository.
 
+Forked from [github-create-repo](https://github.com/kgryte/github-create-repo/), but [adding `inferFromPackageJson` option for filling option smartly](https://github.com/kgryte/github-create-repo/pull/2)
+
 
 ## Installation
 
 ``` bash
-$ npm install github-create-repo
+$ npm install @moyuyc/github-create-repo
 ```
 
 
 ## Usage
 
 ``` javascript
-var createRepo = require( 'github-create-repo' );
+var createRepo = require( '@moyuyc/github-create-repo' );
 ```
 
 <a name="create-repo"></a>
@@ -132,7 +134,7 @@ The factory method accepts the same `options` as [`createRepo()`](#create-repo).
 ## Examples
 
 ``` javascript
-var createRepo = require( 'github-create-repo' );
+var createRepo = require( '@moyuyc/github-create-repo' );
 
 var opts = {
 	'token': '<your_token_goes_here>',
@@ -169,7 +171,7 @@ __Note__: in order to run the example, you will need to obtain an access [token]
 To use the module as a general utility, install the module globally
 
 ``` bash
-$ npm install -g github-create-repo
+$ npm install -g @moyuyc/github-create-repo
 ```
 
 

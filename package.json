@@ -1,16 +1,10 @@
 {
-  "name": "github-create-repo",
+  "name": "@moyuyc/github-create-repo",
   "version": "1.0.2",
   "description": "Create a Github repository.",
-  "author": {
-    "name": "Athan Reines",
-    "email": "kgryte@gmail.com"
-  },
+  "author": "Athan Reines <kgryte@gmail.com>",
   "contributors": [
-    {
-      "name": "Athan Reines",
-      "email": "kgryte@gmail.com"
-    }
+    "Athan Reines <kgryte@gmail.com>"
   ],
   "bin": {
     "ghcreaterepo": "./bin/cli",
@@ -25,10 +19,6 @@
     "coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
   },
   "main": "./lib",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kgryte/github-create-repo.git"
-  },
   "keywords": [
     "gh",
     "git",
@@ -43,9 +33,6 @@
     "request",
     "post"
   ],
-  "bugs": {
-    "url": "https://github.com/kgryte/github-create-repo/issues"
-  },
   "dependencies": {
     "debug": "^2.2.0",
     "minimist": "^1.2.0",
@@ -94,5 +81,18 @@
       "android-browser/4.2..latest"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcuttle/github-create-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imcuttle/github-create-repo/issues"
+  },
+  "homepage": "https://github.com/imcuttle/github-create-repo#readme"
 }
