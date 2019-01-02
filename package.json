@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "Create a Github repository.",
   "author": "imcuttle <moyuyc95@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "ghcreaterepo": "./bin/cli",
     "github-create-repo": "./bin/cli"
