@@ -15,6 +15,7 @@
 		"private",
 		"no-issues",
 		"no-wiki",
+		"no-license",
 		"no-downloads",
 		"no-infer",
 		"init"

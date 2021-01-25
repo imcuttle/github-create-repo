@@ -101,6 +101,9 @@ if ( args.license ) {
 if ( args.private ) {
 	opts.private = true;
 }
+if ( args.license === false ) {
+	opts.license = false;
+}
 if ( args.issues === false ) {
 	opts.issues = args.issues;
 }
