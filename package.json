@@ -1,6 +1,6 @@
 {
   "name": "@moyuyc/github-create-repo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a Github repository.",
   "author": "imcuttle <moyuyc95@gmail.com>",
   "publishConfig": {
